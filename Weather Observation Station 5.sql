@@ -1,0 +1,17 @@
+SELECT
+    TOP 1 CITY,
+    LEN(CITY)
+FROM
+    STATION
+ORDER BY
+    LEN(CITY),
+    city;
+
+SELECT
+    TOP 1 CITY,
+    LEN(CITY)
+FROM
+    STATION
+ORDER BY
+    LEN(CITY) DESC,
+    city
